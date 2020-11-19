@@ -16,6 +16,8 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 * fiding the slope for each line
 * filtering the lines with too horizental slopes (less than 20 deg)
 * extending the lines to reach to the botton of the image
+* appending all line with negative slope to left_lines and pos slope to right_lines
+* averaging x1, y1, x2, y2, among all left_lines and also right_lines
 
 
 ![alt text][image1]
